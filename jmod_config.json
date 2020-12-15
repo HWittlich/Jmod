@@ -1,0 +1,21 @@
+{
+    "awsConfiguration": {
+        "accessKeyId": "",
+        "secretAccessKey": "",
+        "region": "eu-west-1"
+    },
+    "ec2Configuration": {
+        "instanceCount": "1",
+        "instanceType": "t2.micro",
+        "imageId": "ami-0ce1e3f77cd41957e",
+        "iamInstanceProfileName": "JmeterOdSSM",
+        "securityGroups": "JOD",
+        "tags": [],
+        "keyName": "JmodCreatedKey",
+        "terminateInstancesAfterXMinutes": 20
+    },
+    "jmeterConfiguration": {
+        "pathTo": ""
+    }
+
+}

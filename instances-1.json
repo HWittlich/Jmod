@@ -1,0 +1,147 @@
+{
+  "Reservations": [
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "AmiLaunchIndex": 0,
+          "ImageId": "ami-0ce1e3f77cd41957e",
+          "InstanceId": "i-0f3103aaa9f36d536",
+          "InstanceType": "t2.micro",
+          "KeyName": "JmodCreatedKey",
+          "LaunchTime": "2020-12-15T18:40:05.000Z",
+          "Monitoring": {
+            "State": "disabled"
+          },
+          "Placement": {
+            "AvailabilityZone": "eu-west-1c",
+            "GroupName": "",
+            "Tenancy": "default"
+          },
+          "PrivateDnsName": "ip-172-31-34-96.eu-west-1.compute.internal",
+          "PrivateIpAddress": "172.31.34.96",
+          "ProductCodes": [],
+          "PublicDnsName": "ec2-54-246-188-16.eu-west-1.compute.amazonaws.com",
+          "PublicIpAddress": "54.246.188.16",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "StateTransitionReason": "",
+          "SubnetId": "subnet-8213c2d8",
+          "VpcId": "vpc-d2461cb4",
+          "Architecture": "x86_64",
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/xvda",
+              "Ebs": {
+                "AttachTime": "2020-12-15T18:40:06.000Z",
+                "DeleteOnTermination": true,
+                "Status": "attached",
+                "VolumeId": "vol-0e5ec58d95109523e"
+              }
+            }
+          ],
+          "ClientToken": "05bf6acd-d942-44c7-a3e3-bccc7e5338ce",
+          "EbsOptimized": false,
+          "EnaSupport": true,
+          "Hypervisor": "xen",
+          "IamInstanceProfile": {
+            "Arn": "arn:aws:iam::683032507048:instance-profile/JmeterOdSSM",
+            "Id": "AIPAZ6B7I6KUJITJK5BVK"
+          },
+          "ElasticGpuAssociations": [],
+          "ElasticInferenceAcceleratorAssociations": [],
+          "NetworkInterfaces": [
+            {
+              "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-54-246-188-16.eu-west-1.compute.amazonaws.com",
+                "PublicIp": "54.246.188.16"
+              },
+              "Attachment": {
+                "AttachTime": "2020-12-15T18:40:05.000Z",
+                "AttachmentId": "eni-attach-0a762abe79a43882f",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "Status": "attached"
+              },
+              "Description": "",
+              "Groups": [
+                {
+                  "GroupName": "JOD",
+                  "GroupId": "sg-08e7343e710915ebe"
+                }
+              ],
+              "Ipv6Addresses": [],
+              "MacAddress": "0a:86:7e:1c:a9:d1",
+              "NetworkInterfaceId": "eni-0c1b6cdca45fe058b",
+              "OwnerId": "683032507048",
+              "PrivateDnsName": "ip-172-31-34-96.eu-west-1.compute.internal",
+              "PrivateIpAddress": "172.31.34.96",
+              "PrivateIpAddresses": [
+                {
+                  "Association": {
+                    "IpOwnerId": "amazon",
+                    "PublicDnsName": "ec2-54-246-188-16.eu-west-1.compute.amazonaws.com",
+                    "PublicIp": "54.246.188.16"
+                  },
+                  "Primary": true,
+                  "PrivateDnsName": "ip-172-31-34-96.eu-west-1.compute.internal",
+                  "PrivateIpAddress": "172.31.34.96"
+                }
+              ],
+              "SourceDestCheck": true,
+              "Status": "in-use",
+              "SubnetId": "subnet-8213c2d8",
+              "VpcId": "vpc-d2461cb4",
+              "InterfaceType": "interface"
+            }
+          ],
+          "RootDeviceName": "/dev/xvda",
+          "RootDeviceType": "ebs",
+          "SecurityGroups": [
+            {
+              "GroupName": "JOD",
+              "GroupId": "sg-08e7343e710915ebe"
+            }
+          ],
+          "SourceDestCheck": true,
+          "Tags": [
+            {
+              "Key": "Jmeter",
+              "Value": ""
+            },
+            {
+              "Key": "Hagen",
+              "Value": "1"
+            }
+          ],
+          "VirtualizationType": "hvm",
+          "CpuOptions": {
+            "CoreCount": 1,
+            "ThreadsPerCore": 1
+          },
+          "CapacityReservationSpecification": {
+            "CapacityReservationPreference": "open"
+          },
+          "HibernationOptions": {
+            "Configured": false
+          },
+          "Licenses": [],
+          "MetadataOptions": {
+            "State": "applied",
+            "HttpTokens": "optional",
+            "HttpPutResponseHopLimit": 1,
+            "HttpEndpoint": "enabled"
+          },
+          "EnclaveOptions": {
+            "Enabled": false
+          }
+        }
+      ],
+      "OwnerId": "683032507048",
+      "ReservationId": "r-088d2dc456c2778d9"
+    }
+  ]
+}

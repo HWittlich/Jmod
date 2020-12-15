@@ -1,0 +1,25 @@
+{
+    "name": "jmeterod",
+    "version": "1.0.0",
+    "description": "project for setting up and executing distributed Jmeter tests",
+    "main": "app.js",
+    "dependencies": {
+        "aws-sdk": "^2.806.0",
+        "typescript": "^4.1.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "npm test",
+        "tsc": "tsc"
+    },
+    "keywords": [
+        "load",
+        "test",
+        "performance",
+        "test",
+        "distributed",
+        "jmeter"
+    ],
+    "author": "Hagen Wittlich",
+    "license": "ISC"
+}
