@@ -116,3 +116,4 @@ dist
 .pnp.*
 
 jmod_config.json
+.workspace
